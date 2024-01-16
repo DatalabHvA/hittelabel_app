@@ -12,7 +12,7 @@ def get_color(value):
     if value == 'A':
         return 'green'
     elif value == 'B':
-        return 'light green'
+        return '#FF5733'
     elif value == 'C':
         return 'yellow'
     elif value == 'D':
