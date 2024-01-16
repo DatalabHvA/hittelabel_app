@@ -10,17 +10,17 @@ def read_data():
 def get_color(value):
     # Customize the color scale as needed
     if value == 'A':
-        return 'green'
+        return '#1db847'
     elif value == 'B':
-        return '#beff33'
+        return '#92eb3f'
     elif value == 'C':
-        return 'yellow'
+        return '#f9ff42'
     elif value == 'D':
-        return 'orange'
+        return '#ffc642'
     elif value == 'E':
-        return 'red'
+        return '#ff6242'
     else:
-        return 'yellow'
+        return '#f9ff42'
 
 def get_label(type_huis, orientatie, perc_glas, zonwering, soort_glas, isolatie, modellen):
     g_waarde_glas = 0.6 if soort_glas == "enkel, dubbel, HR+ of HR++ glas" else 0.3
