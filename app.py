@@ -10,7 +10,7 @@ def read_data():
 def get_color(value):
     # Customize the color scale as needed
     if value == 'A':
-        return 'green'
+        return '#48d943'
     elif value == 'B':
         return '#beff33'
     elif value == 'C':
